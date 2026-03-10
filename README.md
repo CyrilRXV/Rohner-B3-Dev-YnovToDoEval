@@ -80,7 +80,7 @@ class Task {
 class Category {
     +id: number
     +name: string
-    +progress: number
+    +color: string
 }
 
 class TaskStore {
@@ -119,12 +119,14 @@ Task --> Category : appartient à
 | Figma | Design UI |
 | VS Code | Développement |
 
+Utilisation Electron avec quasar, car c'est un langague qui ce rapproche le plus au web.
+
 ---
 
 
 ## 📸 Démonstration
 | Page Home / Login |
-<img width="1101" height="723" alt="Capture d’écran du 2026-03-09 15-21-54" src="https://github.com/user-attachments/assets/95ee03b3-97d3-4923-bc4c-8f54c59f7a17" />
+<img width="1100" height="722" alt="Home" src="https://github.com/user-attachments/assets/1052e5db-98c4-471a-9ee3-049893b9d42f" />
 
 | Page Dashboard |
 <img width="1920" height="978" alt="dashboard" src="https://github.com/user-attachments/assets/b82b128c-6405-47e4-8c17-ce5b12fb412b" />
@@ -184,10 +186,10 @@ Navigation fluide
 
 ⚠️ Difficultés rencontrées
 Gestion du routing dans Electron
+Le fonctionnement du framework quasar
 Organisation du store Pinia
-UI / UX
 Manque de temps pour le style
-
+Première peojet fait avec Forge puis j'ai recommencé avec quasar
 
 🔄 Si c'était à refaire
 

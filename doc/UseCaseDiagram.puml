@@ -1,0 +1,21 @@
+@startuml
+title YnovToDo - Use Case Diagram
+
+left to right direction
+
+actor Utilisateur
+
+rectangle YnovToDo {
+
+    Utilisateur --> (Consulter le Dashboard)
+    Utilisateur --> (Voir les tâches du jour)
+    Utilisateur --> (Créer une tâche)
+    Utilisateur --> (Modifier une tâche)
+    Utilisateur --> (Supprimer une tâche)
+    Utilisateur --> (Marquer une tâche comme terminée)
+    Utilisateur --> (Consulter les tâches par catégorie)
+    Utilisateur --> (Modifier une catégorie)
+
+}
+
+@enduml

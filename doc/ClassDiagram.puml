@@ -1,0 +1,40 @@
+@startuml
+title YnovToDo - Class Diagram
+
+class Utilisateur
+
+class Task {
+    +id: number
+    +name: string
+    +date: Date
+    +time: string
+    +priority: string
+    +description: string
+    +done: boolean
+    +categoryId: number
+}
+
+class Category {
+    +id: number
+    +name: string
+    +progress: number
+}
+
+class TaskStore {
+    +tasks: Task[]
+    +categories: Category[]
+    +useTaskStore()
+    +todayTasks()
+    +addTask()
+    +updateTask()
+    +deleteTask()
+    +toggleTask()
+    +tasksByCategory()
+}
+
+Utilisateur --> TaskStore : utilise
+TaskStore --> Task : gère
+TaskStore --> Category : contient
+Task --> Category : appartient à
+
+@enduml

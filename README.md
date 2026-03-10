@@ -1,3 +1,5 @@
+⏳ Désolé pour le retard du commit, mais je me suis un peu battu avec git et github. 'erreur de push hier soir'
+
 # YnovToDo
 <p align="center">
 <img width="80" height="82" alt="logo" src="https://github.com/user-attachments/assets/b0d77863-9d5f-4539-8d17-08daf7e22e60" />
